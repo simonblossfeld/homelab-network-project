@@ -17,3 +17,18 @@ Clients can resolve hostnames without full domain name
 
 Example:
 ping server → resolves to server.homelab.local
+
+
+## Active Directory Setup
+
+* Installed Active Directory Domain Services (AD DS)
+* Promoted server to Domain Controller
+* Created new forest:
+
+  * Domain: homelab.local
+  * NetBIOS: HOMELAB
+
+### Result:
+
+* Centralized authentication available
+* Server acts as Domain Controller
